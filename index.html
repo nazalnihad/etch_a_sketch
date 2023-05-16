@@ -5,10 +5,37 @@
     <link rel="stylesheet" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Etch A sketch</title>
   </head>
   <body>
-    <div class="display"></div>
+    <h1>Etch a sketch</h1>
+    <div class="components">
+      <div class="options">
+        <div class="slider">
+          <span id="slider_intro">pick a size</span>
+          <div class="slider_options">
+            <input
+              type="range"
+              min="2"
+              max="40"
+              value="16"
+              class="slider"
+              id="myRange"
+            />
+            <span id="slider_val"></span>
+          </div>
+        </div>
+        <div class="color_choice">
+          <span>pick a color</span>
+          <input type="color" id="color_picker" class="opt" />
+        </div>
+        <button class="rainbow opt">Rgb go brr..</button>
+        <button class="reset opt">Reset</button>
+        <button class="clear opt">Clear</button>
+      </div>
+
+      <div class="display"></div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
