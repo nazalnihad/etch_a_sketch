@@ -140,3 +140,7 @@ h1{
   background: #4caf50;
   cursor: pointer;
 }
+
+button:hover{
+  border: 3px solid #666464;
+}
